@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta data -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS included -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Google Fonts - Merriweather included -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+    <!-- Other CSS framework included -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <link class="Logo" rel="icon" href="/Images/Amalthea_logo.jpg" type="image/icon type">
+
+    <!-- CSS fie included -->
+    <link rel="stylesheet" href="app.css">
+    <title>Events | Amalthea 2021</title>
+</head>
+
+<body>
+    <!-- Nav-bar  -->
+    <div class="navbar">
+        <div class="container-fluid">
+            <ul class="nav nav-pills bg-dark">
+                <li class="nav-item">
+                    <a class="nav-link" href="Home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Sponsors.html">Sponsors</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Carousel (Slideshow of posters of events, credits -- Instagram) -->
+
+    <div class="container">
+        <h1 class="hometitle">Events</h1>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img id="chem" src="/Images/ChemThink_1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img id="fusion" src="/Images/fusion_1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img id="icon" src="/Images/icon_1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img id="crypto" src="/Images/crypto_1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img id="gamejam" src="/Images/gamejam_1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img id="dcode" src="/Images/dcode.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <br>
+
+    <!-- About the events -->
+
+    <div class="aboutevents my-4">
+        <h4 class="subheadingA"><strong>About the events</strong></h4>
+
+        <div class="container-fluid my-3">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <!-- -----------------------------Chem-e-Think-------------------------------- -->
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Chem-e-Think
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>About Chem-e-Think</strong>
+                            <p>This event encourages participants to ponder upon their theoretical knowledge of chemical
+                                engineering and chemistry while thinking out of the box.</p>
+                            <strong>Event Structure</strong>
+                            <p>1st round:
+                            <ul>
+                                <li>It is a fun problem solving event majorly revolving around the world of chemical
+                                    engineering.</li>
+                                <li>The questions will consist of both objective and subjective type including
+                                    interesting puzzles along with theory based questions.</li>
+                                <li>It is an elimination round and only selected students will be participating in round
+                                    2. However, the top 2 scorers from this round will also be rewarded.</li>
+                                <li>Top 10 scorers of the first round will get a cash prize of 500 Rs. each.</li>
+                                <li>No specific preparation is required for the first round of the event but some basic
+                                    concepts of chemical engineering/chemistry might come handy.</li>
+                            </ul>
+                            2nd round:
+                            <ul>
+                                <li>Selected students from round 1 will be participating in round 2.</li>
+                                <li>It is a real time quizzing competition.</li>
+                                <li>It is aimed at testing the basic knowledge of students related to chemical
+                                    engineering and chemistry.</li>
+                                <li>Questions will be from basic concepts of chemical engineering, chemistry and logical
+                                    reasoning.</li>
+                            </ul>
+                            </p>
+                            <strong>Rules and Regulations</strong>
+                            <p>
+                            <ul>
+                                <li> Participation is open for all students from any branch having interest in the field
+                                    of chemical engineering or chemistry.</li>
+                                <li>Students will be participating individually.</li>
+                                <li>Event will be conducted in online mode. Exact date, timing and platform of the event
+                                    will be sent to the participants beforehand.</li>
+                                <li> The questions in both the rounds will be a mixture of subjective and objective
+                                    questions.</li>
+                                <li>All questions and instructions will be given in English.</li>
+                                <li>Participants will be given 2 hours for each round of the quiz.</li>
+                                <li>Detailed rules and format of both the rounds will be told on the spot.</li>
+                                <li>In case of ambiguity, the decision of the judges/organizers would be considered
+                                    final.</li>
+                                <li>If any participant is found misleading the organiser or using unfair means to win,
+                                    the organiser reserves the right to disqualify the participant at any stage of the
+                                    event.</li>
+                                <li>Organisers hold the right to make changes in the event structure during the event.
+                                </li>
+                            </ul>
+                            </p>
+                            <strong>Marking Scheme</strong>
+                            <p>
+                            <ul>
+                                <li>
+                                    First round is an elimination round and students qualifying in that round will be
+                                    participating in the 2nd round.
+                                </li>
+                                <li>Top 30 percent scorers of the first round will be qualified for the second round.
+                                </li>
+                                <li>Any particular marking pattern in the rounds will be told during the event.</li>
+                                <li>Criteria for judgement in each round will be told during the event.</li>
+                            </ul>
+                            </p>
+                            <strong>Prizes</strong>
+                            <p>Round 1:
+                            <ul>
+                                <li>Top 10 scorers of round 1 will receive a cash prize of INR 500</li>
+                            </ul>
+                            Round 2:
+                            <ul>
+                                <li>
+                                    Rank 1 - INR 6,000
+                                </li>
+                                <li>
+                                    Rank 2 - INR 5,000
+                                </li>
+                                <li>
+                                    Rank 3 - INR 4,000
+                                </li>
+                            </ul>
+                            * If a participant has won a prize in round 2, he/she will not be able to claim prize money
+                            from the first round even if he/she is applicable for it.
+                            </p>
+                            <strong>Contact</strong>
+                            <ul>
+                                <li>Sresth Tosniwal</li>
+                                <p>(E):sresth.t@iitgn.ac.in (M):+91 9429530407</p>
+                                <li>Shubhi Maheshwari</li>
+                                <p>(E):shubhi.maheshwari@iitgn.ac.in (M):+91 8290701802
+                                </p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Autodesk Fusion360 Workshop and Competition
+                        </button>
+                    </h2>
+                    <!-- --------------------------------Autodesk Fusion Contest-------------------------- -->
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>About Autodesk Fusion360 Contest</strong>
+                            <p>AutoDesk Fusion 360 is an essential software for students. It's the first 3D CAD, CAM,
+                                and CAE tool of its kind, connecting your entire product development process into one
+                                cloud-based platform. Fusion 360 helps students and educators prepare for the future of
+                                design.
+                                Amalthea brings to you a great opportunity to master this software and add to your
+                                skillset! In the Fusion 360 Design Contest, students will submit a model based on the
+                                problem statement, which will be released a day before the contest starts.
+                                The best part, we will be conducting a workshop on how to use Fusion 360, which will be
+                                taught by expert instructors from AutoDesk ! The workshop and the contest is open to
+                                all, and has no participation fee.
+                            </p>
+                            <strong>Participation</strong>
+                            <p>
+                            <ul>
+                                <li>All participants will participate individually.</li>
+                                <li>Other than having the AutoDesk Fusion 360 software installed, there are no
+                                    prerequisites to participate.</li>
+                                <li>There is NO participation fee.</li>
+                            </ul>
+                            </p>
+                            <strong>Workshop Guidelines</strong>
+                            <p>
+                            <ul>
+                                <li>There is no eligibility criteria or any fee to attend the workshop. Anyone can join
+                                    the workshop.</li>
+                                <li>Participants are advised to have the software AutoDesk Fusion 360 installed before
+                                    the workshop on their device. Working alongside the instructor is a great hands-on
+                                    experience and is the best way to learn the software.</li>
+                                <li>The Workshop will be held online. The link and the details to join will be shared
+                                    shortly after the registration.</li>
+                            </ul>
+                            </p>
+                            <strong>The Design Contest</strong>
+                            <p>
+                            <ul>
+                                <li>The design contest will start on 21:00 IST, 2nd January 2021, and will run till
+                                    21:00 IST, 16th January 2021. Design submissions will only be accepted during this
+                                    period.</li>
+                                <li>The organisers hold the rights to make changes in the event format or structure
+                                    without prior notice to the participants. The participants would be informed
+                                    regarding any changes via mail beforehand.</li>
+                                <li>Plagiarism is strictly prohibited. If a participant is found to have plagiarized or
+                                    have used any unauthorised sources anywhere in the model, strict actions (which may
+                                    include disqualification also) will be taken after proper investigation.</li>
+                                <li>Only the submissions made on the <a
+                                        href="https://www.autodesk.in/products/fusion-360/overview">AutoDesk Fusion
+                                        360</a>software will be considered for the prize. This is the <a
+                                        href="https://drive.google.com/file/d/17ChmOuy6Gcd_1f92aw9KefYhmnG__Lr1/view?usp=sharing">installation
+                                        manual</a>.</li>
+                                <li>The participant will have to submit .f3d file along with the .pdf file (the
+                                    participant is encouraged to use the provided template). Empty submissions will be
+                                    disqualified.</li>
+                                <li>Submission details will be sent to the registered email address.</li>
+                                <li>All the participants should register on the Fusion 360 software through their mail
+                                    ID.</li>
+                                <li>All rights of the project developed during the competition strictly belong to the
+                                    owner of the corresponding project.</li>
+                                <li>The organizing team has the sole right to decide over disqualification of any
+                                    participants that do not abide by the rules and regulations of the competition.</li>
+                                <li>Judging Criteria:</li>
+                                <ul>
+                                    <li>
+                                        Points will be awarded on the basis of innovation, creativity, design of CAD
+                                        model, economic feasibility and use of software features (for example,
+                                        rendering, animation, generative design and simulation if possible).
+                                    </li>
+                                    <li>he decision of the judges will be considered as fnal and no other participant is
+                                        allowed to question their judgement.</li>
+                                    <li>The prizes (not specifed otherwise) will be awarded solely based on the decision
+                                        of the judging panel and the organisers.</li>
+                                </ul>
+                            </ul>
+                            </p>
+                            <strong>Prizes</strong>
+                            <p>
+                            <ul>
+                                <li>Rank 1 - INR 7,000</li>
+                                <li>Rank 2 - INR 5,000</li>
+                                <li>Rank 3 - INR 3,000</li>
+                                <li>There will be prizes during the workshops also, which will be announced shortly
+                                    before the workshop.</li>
+                                <li>Certifcate of participation in the workshop will be provided, only if the attendee
+                                    attends the whole workshop (more than cumulative 3.5 hours of presence. Workshop is
+                                    of 4 hours, there is a bufer time of half an hour).</li>
+                                <li>Certifcate of participation in the contest will be provided, only if the participant
+                                    makes a submission which follows all the above guidelines (ie 5th point of 'The
+                                    Design Contest').</li>
+                            </ul>
+                            </p>
+                            <strong>Contact</strong>
+                            <p>
+                            <ul>
+                                <li>Videh Patel</li>
+                                <p>(E):videh.p@iitgn.ac.in (M):+91 8849885100</p>
+                            </ul>
+                            <ul>
+                                <li>Xhitij Choudhary</li>
+                                <p>(E):xhitij.cm@iitgn.ac.in (M):+91 98331 71140</p>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            ICon Innovation Conference
+                        </button>
+                    </h2>
+                    <!-- ---------------------------------ICon------------------------------- -->
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>About ICon</strong>
+                            <p>"<strong>There is only one thing stronger than all the armies of the world: and that is
+                                    an idea
+                                    whose time has come.</strong>"
+                                — Victor Hugo
+                            <p>ICon (Innovative Conference) is an event which aims to bring hidden/unknown ideas/
+                                innovations in front of the world. By bringing together, we create a unique platform for
+                                participants to learn, exchange ideas and collaborate with experts.
+                                The year 2020 brought various kinds of crises which changed our lives drastically. From
+                                the COVID-19 Pandemic to Forest Fires in Australia, crashing world economies to ravaging
+                                floods, these emerging crises have not only made our lives more vulnerable, but also
+                                warned us of the problems we may face in the future. So, we would like to invite
+                                projects based on the topic - “Engineering Solutions to Emerging Crisis”.
+                                The participants will be allotted a time slot of 10 minutes in which they would be
+                                expected to do a presentation of their scheme and can demonstrate their idea. During
+                                this time, they need to showcase the significant points of their project and present it
+                                to the experts. This shall be followed by a short questionnaire by the experts.</p>
+                            </p>
+                            <strong>Conduction of Event</strong>
+                            <p>
+                            <ul>
+                                <li>Participants will have to register for this event online, by submitting brief
+                                    information about themselves as well as their idea related to the topic. Due to the
+                                    Pandemic situation, the entire event will be conducted online. The selected
+                                    participants will have to present their ideas on the day of the event to the experts
+                                    through Webex, an online platform.</li>
+                                <li>
+                                    Participants can use one or more following options to present their ideas.
+                                </li>
+                                <ul>
+                                    <li>Poster presentation</li>
+                                    <li>Video presentation</li>
+                                    <li>Audio Presentation</li>
+                                    <li>Slides/Powerpoint</li>
+                                </ul>
+                                <li>We recommend that you include a prototype of the project in your presentation. After
+                                    all the teams have finished their presentations, there will be a break during which
+                                    they can interact with the experts.</li>
+                            </ul>
+                            </p>
+                            <strong>Selection Criteria</strong>
+                            <ul>
+                                <li>
+                                    Participants are required to attach a document which includes a brief description of
+                                    their idea and details of all the team members and email it to
+                                    amalthea.icon@gmail.com.
+                                </li>
+                                <li>Participants can submit a video/documentary regarding their idea to ICon (optional
+                                    but recommended) on the above email id.</li>
+                                <li>All Teams will have to register and submit the brief before 19th January, 2021. Only
+                                    selected teams will be allowed to present their ideas on the day of the event.</li>
+                                <li>Teams will be selected based on the distinctiveness of your idea. Plagiarism will
+                                    not be tolerated. Selected teams will be notified through email.</li>
+                            </ul>
+                            <strong>Judging Criteria</strong>
+                            <ul>
+                                <li>Affordability</li>
+                                <li>Sustainability</li>
+                                <li>Excellence</li>
+                                <li>Distinctive</li>
+                            </ul>
+                            <strong>Rules</strong>
+                            <p>
+                            <ul>
+                                <li>A Team can consist of a maximum of 5 members. The Team should register their team
+                                    name and team leader on the Registration form. We will only communicate with the
+                                    person registered as the team leader.</li>
+                                <li>If any team is found to be involved in an unethical practice such as cheating,
+                                    plagiarism, copying, copyright violation, etc., they shall be disqualified
+                                    immediately.</li>
+                                <li>At a later stage, if a team is accused of violation of the copyright of any
+                                    particular idea or research, then Amalthea and ICon will not be responsible and
+                                    accountable for any charges held against them.</li>
+                                <li>At any stage of the event, if any team is found to have misconduct, they shall be
+                                    disqualified.</li>
+                                <li>All the selected teams must be present on the day of the event at the given time for
+                                    introduction and briefing. Further information regarding presentation schedule will
+                                    be mailed to the qualifying teams.</li>
+                                <li>Kindly note that all participants are free to stay in the meet, but only the team
+                                    presenting to the panel will be allowed to unmute and present.</li>
+                                <li>We are not responsible for any kind of network issues or any discrepancies in audio/
+                                    video during the team presentation. Considerations will be made only under special
+                                    circumstances.</li>
+                                <li>Any requests for change in schedule must be sent via email by the team
+                                    representative at least an hour before the event.</li>
+                                <li>ICon only has the responsibility of conducting the event smoothly, and the results
+                                    of the event shall be solely decided based on the interactions the teams have with
+                                    the experts. ICon is not responsible for the judgments the experts take.</li>
+                                <li>ICon is not responsible for arranging any further interactions of participants with
+                                    the experts, however, if any of the experts wish to contact any of the participants,
+                                    they may do so with their own interest.</li>
+                                <li>ICon holds the right to change the event format, medium or structure at any point
+                                    without prior notice to the participants.</li>
+                            </ul>
+                            </p>
+                            <strong>Prizes</strong>
+                            <ul>
+                                <li>1st Position = INR 10000</li>
+                                <li>2nd Position = INR 7000</li>
+                                <li>3rd Position = INR 5000</li>
+                                <li>Certificates issued by Amalthea will be awarded to all the selected participants who
+                                    appear online on the date of the presentation.</li>
+                            </ul>
+                            <strong>Contact</strong>
+                            <ul>
+                                <li>Adarsh Golait</li>
+                                <p>(E):adarsh.g@iitgn.ac.in (M):+91 8609772536</p>
+                                <li>Sayan Biswas</li>
+                                <p>(E):biswas.sayan@iitgn.ac.in (M):+91 7998084835</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Cryptorush
+                        </button>
+                    </h2>
+                    <!-- ------------------------------------Cryptorush------------------------- -->
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>About Cryptorush</strong>
+                            <p>Crypto-Trading: A business to make easy money by making a few clicks on time! Is it so?
+                                Check out what graph crunching and timely clicks real Crypto-Trading takes, right here
+                                in CryptoRush. We bring forward an opportunity to feel and act like a real Crypto-Trader
+                                without any risks. Here's how you sum it up. Mock Money, Real-Time Rates, Real Brokerage
+                                Rates and Real courage to make a worthy investment!
+                                CryptoRush, a week-long event will be conducted on Roostoo. Each participant starts off
+                                with $50,000 worth of virtual currency, and the contestant, through trading and
+                                speculations, who ends up with the most value at the end of the week is declared the
+                                winner.
+                                CryptoRush is powered by WazirX, India's largest cryptocurrency exchange platform.
+                                Exciting prizes worth INR 50,000 are up for the grab. No participation fee or knowledge
+                                is required. So, what are you waiting for! Register Now!
+                            </p>
+                            <strong>Participation</strong>
+                            <p>
+                            <ul>
+                                <li>There are no prerequisites for this competition, but knowlege of stock trading would
+                                    definitely increase your chances of winning!</li>
+                                <li>There is no participation fee.</li>
+                                <li>The event is going to be held online on Roostoo application. The app ( Roostoo –
+                                    Mock Crypto Trading ) can be downloaded from the links below:</li>
+                                <ul>
+                                    <li><a
+                                            href="https://play.google.com/store/apps/details?id=com.roostoo.roostoo&hl=en_IN">For
+                                            Android</a></li>
+                                    <li><a
+                                            href="https://apps.apple.com/us/app/roostoo-mock-crypto-trading/id1483561353">For
+                                            IOS</a></li>
+                                </ul>
+                                <li>The participation code required in the Roostoo App, will be mailed to the registered
+                                    participants.</li>
+                            </ul>
+                            </p>
+                            <strong>Rules</strong>
+                            <p>
+                            <ul>
+                                <li>The ranking would be based on the Portfolio return rates.</li>
+                                <li>Prizes will be awarded to the top three ranked participants with highest portfolio
+                                    return rates. In case of a tie, prizes will be awarded as deemed fair by the
+                                    organisers.</li>
+                                <li>All participants will be provided with a virtual participation certificate.</li>
+                                <li>Winners would be announced within 48 hours after the event ends, on the Amalthea
+                                    website and respective social media platforms.</li>
+                                <li>Short Selling is not supported and allowed.</li>
+                                <li>Buying on margins is not allowed.</li>
+                                <li> Bot Assisted Trading, Hyper Frequency, Multiple Accounts Trading, and any
+                                    illegitimate activities which suggest cheating or exploiting the systems are not
+                                    allowed.</li>
+                                <li>Users who cancel orders more than 20 times per minute may be disqualified.</li>
+                                <li>Creation of multiple accounts by any single user to participate in the event will
+                                    lead to disqualification. If the system detects that two users have conspired to
+                                    place matched orders, their participation will be disqualified.</li>
+                                <li>ROOSTOO HAS SOLE AND FINAL DISCRETION OF INTERPRETATION OF THE COMPETITION RULES AND
+                                    RIGHTS TO DISQUALIFY ANY USERS WHO VIOLATE THE RULES.</li>
+                                <li>Participants will have to agree to Roostoo Terms and Conditions upon signing in.
+                                </li>
+                                <li>The event DOES NOT include any buying or selling of any real cryptocurrencies with
+                                    real money. The money that participants will use to trade will be mock money
+                                    deposited in the virtual portfolio.</li>
+                            </ul>
+                            </p>
+                            <strong>Prizes</strong>
+                            <p>
+                            <ul>
+                                <li>1st Position - INR 5,500 + 160 WRX Tokens*</li>
+                                <li>2nd Position - INR 3,800 + 90 WRX Tokens</li>
+                                <li>3rd Position - INR 2,100 + 50 WRX Tokens</li>
+                                <li>4th Position - INR 1,100</li>
+                                <li>5th Position - INR 1,000</li>
+                                <li>6th Position - INR 900</li>
+                                <li>7th Position - INR 800</li>
+                                <li>8th Position - INR 700</li>
+                                <li>9th Position - INR 600</li>
+                                <li>10th Position - INR 500
+                                </li>
+                                <li>Top 300 Participants (the first 300, excluding the top 3 rankers) will win 10 WRX
+                                    Tokens.</li>
+                                * Just like Bitcoin and other cryptocurrencies today, WRX is a token created by WazirX.
+                                There will be a maximum of 1 billion WRX coins ever created. Click here to know more. 1
+                                WRX token = INR 10 (as of 14th Oct, 2020).
+                            </ul>
+                            </p>
+                            <strong>Contact</strong>
+                            <ul>
+                                <li>Adarsh Golait</li>
+                                <p>(E):adarsh.g@iitgn.ac.in (M):+91 8609772536</p>
+                                <li>Sayan Biswas</li>
+                                <p>(E):biswas.sayan@iitgn.ac.in (M):+91 7998084835</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Gamejam AD
+                        </button>
+                    </h2>
+                    <!-- ----------------------------------------Gamejam------------------------- -->
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>About Gamejam AD</strong>
+                            <p>
+                                <a href="https://itch.io/jam/gamejam-2020-ad">Game Jam 2020 AD</a> is a game development
+                                competition in which participants are expected to
+                                make a game in 2 weeks based on a theme.
+                            </p>
+                            <strong>Participation</strong>
+                            <p>To participate all you need is an itch.io account. If you do not have an account, you can
+                                create one <a href="https://itch.io/register">here</a>.</p>
+
+                            <strong>Rules</strong>
+                            <p>
+                            <ul>
+                                <li>You can work in teams of any size.</li>
+                                <li>The game should be clean that is no NSFW content.</li>
+                                <li>Pre-made assets can be used as long as you have the rights to use in your games.
+                                </li>
+                                <li>Your game should be submitted within the time-frame. However, minor updates are
+                                    allowed after the game has been submitted.</li>
+                            </ul>
+                            </p>
+                            <strong>Voting</strong>
+                            <p>Everyone who participated (submitters and contributors) can rate. The submitted games
+                                will be rated from 1 to 5 on the basis of the following five criteria:</p>
+                            <ul>
+                                <li>Adherence to Theme</li>
+                                <li>Innovation</li>
+                                <li>Audio</li>
+                                <li>Game Design</li>
+                                <li>Graphics</li>
+                            </ul>
+                            <strong>Winner</strong>
+                            <p>There will be 3 overall winners. The top 20 rated games would be reviewed by us for these
+                                3.
+                                Other than these, there will be one winner from each criteria (based purely on ratings).
+                            </p>
+                            <strong>Contact</strong>
+                            <ul>
+                                <li>Aniket Rajnish</li>
+                                <p>(E):adarsh.g@iitgn.ac.in (M):+91 8609772536</p>
+                                <li>Reuben Devanesna</li>
+                                <p>(E):reuben.sd@iitgn.ac.in (M):+91 9867608536</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            D'Code
+                        </button>
+                    </h2>
+                    <!-- ----------------------------D'Code------------------------------ -->
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>About D'Code</strong>
+                            <p>To all the enthusiastic coders out there, this event is solely for you!</p>
+                            <p>D'Code is a 3 hour long competitive programming contest that tests your algorithmic
+                                skills. This contest is based on Data Structures and Algorithms. Cash prizes up to 15k
+                                await the winners. Every year, D'Code sees national and international participation.
+                                So whether you are a rookie looking to polish your skills, a climber wanting to improve
+                                his rating, an expert aiming for the top prize, or a coding addict who's in just for the
+                                thrill, D'Code is the place for you!</p>
+                            <strong>Participation</strong>
+                            <p>
+                            <ul>
+                                <li>To participate, all you need is a CodeChef account.
+                                </li>
+                                <li>If you do not have a CodeChef account, you can create one <a
+                                        href="https://www.codechef.com/signup">here.</a></li>
+                                <li>There is no participation fee.</li>
+                            </ul>
+                            </p>
+                            <strong>Rules</strong>
+                            <ul>
+                                <li>All participations are expected to abide by the <a
+                                        href="https://www.codechef.com/codeofconduct">CodeChef Code of Conduct.</a></li>
+                            </ul>
+                            <strong>Prizes</strong>
+                            <ul>
+                                <li>Caash prizes upto INR 15,000.</li>
+                            </ul>
+                            <strong>Past Winners</strong>
+                            <ul>
+                                <li>Ashutosh Agarwal (India) - Country rank 847 on CodeChef as on 22nd Oct, 2020.</li>
+                                <li>Hanit Banga (India) - Country rank 1 on Codeforces as on 22nd Oct, 2020.</li>
+                                <li>Minora Fujita (Japan) - Global rank 15 & Country rank 1 on CodeChef as on 22nd Oct,
+                                    2020.</li>
+                            </ul>
+                            <strong>Contact</strong>
+                            <ul>
+                                <li>Yash More</li>
+                                <p>(E):yash.mh@iitgn.ac.in (M):+91 9511845803</p>
+                                <li>Xhitij Choudhary</li>
+                                <p>(E):xhitij.cm@iitgn.ac.in (M):+91 9833171140</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="abc@xyz.com">
+            </div>
+            <div class="col-md-6">
+                <label for="inputname" class="form-label">Name</label>
+                <input type="text" class="form-control" id="inputname" placeholder="Bob">
+            </div>
+            <div class="col-6">
+                <label for="inputAddress" class="form-label">Institute</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="IIT Gandhinagar">
+            </div>
+            <div class="col-md-6">
+                <label for="inputevent" class="form-label">Event</label>
+                <select id="inputevent" class="form-select">
+                    <option>Chem-e-Think</option>
+                    <option>Autodesk Fusion360 Workshop</option>
+                    <option>ICon</option>
+                    <option>Cryptorush</option>
+                    <option>Gamejam AD</option>
+                    <option>D'Code</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label for="inputContact" class="form-label">Contact</label>
+                <input type="number" class="form-control" id="inputContact" placeholder="99XXXXXXXX">
+            </div>
+            <div class="col-12 center">
+                <button type="submit" class="btn btn-primary">Register</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Departments</h3>
+                        <ul>
+                            <li>Conclaves</li>
+                            <li>Symposium</li>
+                            <li>Webinars</li>
+                            <li>Events</li>
+                            <li>Design</li>
+                            <li>Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Core Committee</h3>
+                        <ul>
+                            <li>Nikharv Shah</li>
+                            <li>Preet Shah</li>
+                            <li>Sanjay Venkitesh</li>
+                            <li>Xhitij Choudhary</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Contacts</h3>
+                        <ul>
+                            <li>+91 9484801127</li>
+                            <li>+91 9537373663</li>
+                            <li>+91 7823991431</li>
+                            <li>+91 9833171140</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social">
+                        <p class="copyright">Amalthea'21, IIT Gandhinagar</p>
+                        <a href="https://www.facebook.com/amalthea.iitgn"><i class="icon ion-social-facebook"></i></a><a
+                            href="https://twitter.com/amalthea_iitgn?s=20"><i class="icon ion-social-twitter"></i></a><a
+                            href="https://www.linkedin.com/company/amalthea-iit-gandhinagar/"><i
+                                class="icon ion-social-linkedin"></i></a><a
+                            href="https://www.instagram.com/amalthea_iitgn/"><i
+                                class="icon ion-social-instagram"></i></a><a
+                            href="https://www.youtube.com/user/AmaltheaIITGn"><i
+                                class="icon ion-social-youtube"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS included -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+
+    <!-- Other JS included -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
